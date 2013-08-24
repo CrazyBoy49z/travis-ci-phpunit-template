@@ -1,7 +1,7 @@
 <?php
 
 
-class simpleTest extends PHPUnit_TestCase
+class simpleTest extends PHPUnit_Framework_TestCase
 {
 
     public function test1()
