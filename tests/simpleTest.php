@@ -6,7 +6,7 @@ class simpleTest extends PHPUnit_Framework_TestCase
 
     public function test1()
     {
-        $this->assertEqual(true,true);
+        $this->assertEquals(true,true);
     }
 
     /**
@@ -14,7 +14,7 @@ class simpleTest extends PHPUnit_Framework_TestCase
      */
     public function test2()
     {
-        $this->assertEqual(false,false);
+        $this->assertEquals(false,false);
     }
 
 }
